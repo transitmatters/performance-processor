@@ -1,5 +1,5 @@
 import datetime
-import pandas as pd
+import fireducks.pandas as pd
 import pathlib
 import shutil
 import urllib.request

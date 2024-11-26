@@ -1,4 +1,4 @@
-import pandas as pd
+import fireducks.pandas as pd
 import pathlib
 from .constants import HISTORIC_COLUMNS_PRE_LAMP as HISTORIC_COLUMNS
 from .gtfs_archive import add_gtfs_headways
