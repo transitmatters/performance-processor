@@ -1,6 +1,6 @@
 from datetime import date
 import io
-import pandas as pd
+import fireducks.pandas as pd
 import requests
 from typing import Tuple
 

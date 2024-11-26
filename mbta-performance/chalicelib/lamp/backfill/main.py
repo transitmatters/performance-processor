@@ -1,4 +1,4 @@
-import pandas as pd
+import fireducks.pandas as pd
 from ..ingest import fetch_pq_file_from_remote, ingest_pq_file, upload_to_s3
 from ... import parallel
 from datetime import date, timedelta
@@ -6,7 +6,7 @@ from datetime import date, timedelta
 
 _parallel_upload = parallel.make_parallel(upload_to_s3)
 
-EARLIEST_LAMP_DATA = date(2019, 9, 15)
+EARLIEST_LAMP_DATA = date(2023, 10, 31)
 
 
 def backfill_all_in_index():

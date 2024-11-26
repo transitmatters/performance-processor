@@ -1,6 +1,6 @@
 import boto3
 import io
-import pandas as pd
+import fireducks.pandas as pd
 import zlib
 import time
 

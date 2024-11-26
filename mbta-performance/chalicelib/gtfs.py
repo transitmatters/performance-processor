@@ -1,6 +1,6 @@
 from datetime import date
 from tempfile import TemporaryDirectory
-import pandas as pd
+import fireducks.pandas as pd
 from typing import Iterable
 import boto3
 

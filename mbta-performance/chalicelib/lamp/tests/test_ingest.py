@@ -4,7 +4,7 @@ import os
 import unittest
 from unittest import mock
 
-import pandas as pd
+import fireducks.pandas as pd
 
 from .. import ingest
 from .. import constants
